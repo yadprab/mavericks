@@ -1,0 +1,38 @@
+//changes are here
+
+.info--main {
+    margin: 2em 0;
+    height: 100vh;
+}
+
+.message {
+    @include flex-2;
+
+    img{
+        width: 300px;
+    }
+
+    article{
+        @include flex-2;
+        margin-top: 2em;
+
+        h1{
+            text-align: center;
+            font-size: 2.25rem;
+        }
+
+        a{
+         
+            @include medium-button;
+            background-color: var(--base);
+            min-width: 160px;
+            border-radius: 50px;
+            color: var(--black);
+            text-align: center;
+            font-weight: 500;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
